@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary">
+    <v-app-bar app color="cyan lighten-3">
       <v-img
         alt="Vuetify Name"
         class="shrink mt-1 hidden-sm-and-down"
@@ -10,7 +10,7 @@
         width="100"
       />
     </v-app-bar>
-    <v-main>
+    <v-main >
       <FormPacient/>
        <ListPacients/>
        <v-overlay :value="overlay">
@@ -38,3 +38,12 @@ export default {
 
 };
 </script>
+
+<style >
+.container {
+  width: 700px
+}
+h1{
+  color: #666;
+}
+</style>
